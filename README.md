@@ -19,7 +19,7 @@ paz-home-test/
 ## Tasks Overview
 
 ### [Task 1: Gym Registration Automation (Power Automate)](./task1_power_automate/)
-- **Goal:** Process gym registrations automatically as they arrive.
+- **Goal:** Process gym registrations automatically as they arrive, in two exercises: (1) form, list, and Excel setup, and (2) the Power Automate flow.
 - **How it works:** When a new item is added to the *Gym Registrations* Microsoft List, the flow copies each attached document into a SharePoint folder (`/Documents/Gym_Registrations`). It then adds one row per registration to `RegistrationTable` in [`sample_registrations.xlsx`](./task1_power_automate/sample_registrations.xlsx).
 - **Files:** the exported flow package (`.zip`), the Excel file, a form screenshot, and import/setup instructions.
 
